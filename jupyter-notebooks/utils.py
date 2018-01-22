@@ -12,7 +12,7 @@ class Utils():
 
 		return data,labels
 	
-	def preprocess():
+	def preprocess(titles=True):
 
 		data,labels = Utils.downloadDataset()
 
@@ -31,8 +31,8 @@ class Utils():
 		for item in data:
 			tmp = []
 			tmp.append(int(item[0]))
-
-			tmp.append(dummiesDataFrame.index[dummiesDataFrame[item[1].split(',')[1].strip().split(' ')[0]]==True].tolist()[0])
+			if titles:
+				tmp.append(dummiesDataFrame.index[dummiesDataFrame[item[1].split(',')[1].strip().split(' ')[0]]==True].tolist()[0])
 
 			tmp.append(1 if item[2]=='female' else 0)
 			tmp.append(float(item[3]))

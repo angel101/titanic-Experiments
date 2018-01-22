@@ -6,8 +6,6 @@ using titles:
 without titles:
 	train				test
 	0.6322827125119389	0.4694656488549618
-	
-
 
 Bernoulli Naive Bayes
 
@@ -18,9 +16,6 @@ without titles:
 	train				test
 	0.7841451766953199	0.7633587786259542
 
-
-
-
 Linear Regretion (R**2)
 
 using titles:
@@ -29,3 +24,39 @@ using titles:
 without titles:
 	train				test
 	0.372319358277436	0.06764959794115
+
+SVC
+
+using titles:
+	train				test
+	0.8901623686723973	0.6946564885496184	
+without titles:
+	train				test
+	0.8739255014326648	0.6755725190839694
+
+NuSVC
+
+using titles:
+	train				test
+	0.9073543457497613	0.6755725190839694	
+without titles:
+	train				test
+	0.9130850047755492	0.683206106870229
+
+linear SVC
+
+using titles:
+	train				test
+	0.6227316141356256	0.7977099236641222	
+without titles:
+	train				test
+	0.7249283667621776	0.7557251908396947
+
+linear SV
+
+using titles:
+	train				test
+	0.6994584511502016	-0.1832433092540382
+without titles:
+	train				test
+	0.6874729376485029	-0.16014566011362175
