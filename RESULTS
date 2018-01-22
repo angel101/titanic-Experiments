@@ -1,0 +1,31 @@
+multinomial naive bayes
+
+using titles:
+	train				test
+	0.6723973256924546	0.6603053435114504	
+without titles:
+	train				test
+	0.6322827125119389	0.4694656488549618
+	
+
+
+Bernoulli Naive Bayes
+
+using titles:
+	train				test
+	0.7841451766953199	0.7633587786259542
+without titles:
+	train				test
+	0.7841451766953199	0.7633587786259542
+
+
+
+
+Linear Regretion (R**2)
+
+using titles:
+	train				test
+	0.3723379181363204	0.0685673831172308	
+without titles:
+	train				test
+	0.372319358277436	0.06764959794115
