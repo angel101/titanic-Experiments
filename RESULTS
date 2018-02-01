@@ -60,3 +60,12 @@ using titles:
 without titles:
 	train				test
 	0.6874729376485029	-0.16014566011362175
+
+KNN
+
+using titles:
+	train				test
+	0.7841451766953199	0.7099236641221374
+without titles:
+	train				test
+	0.7822349570200573	0.7022900763358778
